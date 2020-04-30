@@ -89,7 +89,7 @@ class Escena {
          * en l'àrea de dibuix.
          */
 
-        Renderer dr = new Renderer(500, 500);
+        Renderer dr = new Renderer(this.tamX, this.tamY);
         dr.Render(LlistaFigures);
 
     };

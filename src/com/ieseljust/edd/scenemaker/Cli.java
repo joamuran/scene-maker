@@ -58,6 +58,16 @@ public class Cli {
             figura = components[0];
 
             switch (figura) {
+                case "dimensions":
+                    try {
+                        AppEscena.setX(Integer.parseInt(components[1]));
+                        AppEscena.setY(Integer.parseInt(components[2]));
+                    } catch (Exception e) {
+                        // Si s'ha produït algun error als paràmetres, s'indica un error de sintaxi
+                        System.out.println(
+                                "\u001B[31m Error de sintaxi. La sintaxi correcta és:\n dimensions x y\u001B[0m");
+                    }
+                    break;
                 case "rectangle":
                     // Creació d'una figura de la classe cercle
                     try {
@@ -76,7 +86,7 @@ public class Cli {
                     } catch (Exception e) {
                         // Si s'ha produït algun error als paràmetres, s'indica un error de sintaxi
                         System.out.println(
-                                "\u001B[31m Error de sintaxi. La sintaxi correcta és:\ncercle x y radi color \u001B[0m");
+                                "\u001B[31m Error de sintaxi. La sintaxi correcta és:\nrectangle x y width height color\u001B[0m");
                     }
                     ;
                     break;
@@ -125,7 +135,7 @@ public class Cli {
                     }
                     break;
 
-                case "list":
+                case "remotelist":
                     try {
                         // Descarrega l'index de figures del servidor remot
                         RemoteManager rm = new RemoteManager();
@@ -144,7 +154,7 @@ public class Cli {
 
                     break;
 
-                case "llista":
+                case "list":
                     // Si l'ordre indicada és llista, imprimirem la llista de figures
                     AppEscena.renderText();
 
@@ -162,7 +172,7 @@ public class Cli {
                     // Si hem arribat aci, l'ordre no es coneix
                     System.out.println("\u001B[31m Figura no reconeguda \u001B[0m");
             }
-            
+
         } while (true);
     }
 
