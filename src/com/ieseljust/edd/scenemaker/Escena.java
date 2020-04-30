@@ -15,7 +15,7 @@ class Escena {
     private int tamY;
 
     // Les figures de l'escena s'emmagatzemen en una llista
-    ArrayList<Rectangle> LlistaFigures;
+    private ArrayList<Rectangle> LlistaFigures;
 
     Escena() {
         // Constructor. Pr defecte creem un tamany de 800x600;
