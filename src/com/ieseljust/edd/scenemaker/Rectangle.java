@@ -3,7 +3,9 @@ package com.ieseljust.edd.scenemaker;
 import java.awt.Graphics;
 import java.awt.Color;
 
-public class Rectangle {
+import com.ieseljust.edd.scenemaker.Renderizable;
+
+public class Rectangle implements Renderizable{
     /*
      * Aquesta classe representa un element gràfic de tipus rectangle
      */
