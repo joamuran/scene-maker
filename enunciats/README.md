@@ -135,7 +135,7 @@ Generalitzant aquestes mesures, caldira fer:
 
 ```
 fillOval(x-radiX, y-radiY, 2*x, 2*y)
-```.
+```
 
 
 
