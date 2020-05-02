@@ -24,21 +24,6 @@ Per exemple:
 
 Dibuixarà un quadrat verd en la posició (100,100), i de costat 150.
 
-
-* **Possibilita d'afegir El·lipses**, en una posició donada, i radis en x i y, aixó com el color concrets. La sintaxi serà:
-
-```
-ellipse x y radi_X radi_Y color
-```
-
-Per exemple:
-
-```
-# Figura: ellipse 100 150 50 70 negre
-```
-
-Dibuixarà una el·lipse centrada en la posició (100,150), i de radis 50 i 70.
-
 * **Possibilita d'afegir El·lipses**, en una posició donada, i radis en x i y, aixó com el color concrets. La sintaxi serà:
 
 ```
