@@ -119,7 +119,7 @@ fillOval (100-50, 150-70, 50*2, 70*2);
 Generalitzant aquestes mesures, caldira fer:
 
 ```
-fillOval(x-radiX, y-radiY, 2*x, 2*y)
+fillOval(x-radiX, y-radiY, 2*radiX, 2*radiY)
 ```
 
 
