@@ -87,7 +87,7 @@ Sobre el **sistema de coordenades**, quan indiqueu una posició en l'àrea de di
 
 Gràficament podem representar aquest sistema de la següent manera:
 
-!(Sistema de coordenades)[http://underpop.online.fr/j/java/img/04fig18.jpg]
+![Sistema de coordenades]([http://underpop.online.fr/j/java/img/04fig18.jpg)
 
 ### Algunes primitives
 
