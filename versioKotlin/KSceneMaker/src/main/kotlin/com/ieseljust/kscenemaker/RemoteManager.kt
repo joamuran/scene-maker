@@ -43,13 +43,6 @@ object RemoteManager {
             return null
         }
 
-        /*catch (      MalformedURLException e) {
-            println("Excepció: URL mal formatada!")
-            return null
-        } catch (IOException e) {
-            println("Excepció no controlada: " + e.toString())
-            return null
-        }*/
     }
 
 }
