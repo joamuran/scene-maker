@@ -78,7 +78,7 @@ Dibuixarà una línia entre la posició (100, 150) i la (150, 170).
 
 Cal tindre en compte algunes idees sobre com treballa la llibreria `java.awt.Graphics`. En aquest apartat, veurem alguns detall sobre ella.
 
-Podem trobar tota la documentació sobre l'API d'aquesta llibrería gràfica a (https://docs.oracle.com/javase/10/docs/api/java/awt/Graphics.html)[https://docs.oracle.com/javase/10/docs/api/java/awt/Graphics.html].
+Podem trobar tota la documentació sobre l'API d'aquesta llibrería gràfica a (https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/java/awt/Graphics.html)[https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/java/awt/Graphics.html].
 
 
 ### El sistema de coordenades
